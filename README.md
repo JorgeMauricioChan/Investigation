@@ -1,5 +1,5 @@
-# *Investigation*
-*Algoritmos*. Definición*
+# //Investigation//
+*Algoritmos*. //Definición//
 
 Un algoritmo se puede definir como una secuencia de instrucciones que representan un modelo de solución para determinado tipo de problemas. O bien como un conjunto de instrucciones que realizadas en orden conducen a obtener la solución de un problema.
 
@@ -85,10 +85,109 @@ Es quizás la forma de representación más antigua. Algunos autores suelen llam
 *Pseudocódigo*
 
 
-Es la técnica que permite expresar la solución de un problema mediante un algoritmo escrito en palabras normales de un idioma (por ejemplo, el español), utilizando palabras imperativas. Es común encontrar en pseudocódigo palabras como: Inicie, lea, imprima, sume, divida, calcule, finalice. No hay un léxico obligado para el pseudocódigo, pero con el uso frecuente se han establecido algunos estándares
+Es la técnica que permite expresar la solución de un problema mediante un algoritmo escrito en palabras normales de un idioma (por ejemplo, el español), utilizando palabras imperativas. Es común encontrar en pseudocódigo palabras como: Inicie, lea, imprima, sume, divida, calcule, finalice. No hay un léxico obligado para el pseudocódigo, pero con el uso frecuente se han establecido algunos estándares.
+Differentiate control structures in the design and construction of an algorithm:- Selective structures- Repetitive structures- nested structures
+
+Estructuras selectiva: La representación de una estructura que se hace que haga palabras en pseudocódigo (si, entonces, elseo bien en español si, entonces, si_no), con una figura geométrica en forma de rombo o bien bien triangulo en el interior de una caja rectangular
+ESTRUCTURAE-A SIMPLE SIMPLE
+Funciona de la siguiente manera: se una evalúa condición, de cierta ser efectúa una acción, de lo contrario, continúa con la ejecución normal del programa.
+Su sintaxis es la siguiente:
+Si(condición) Acción;
+O también:
+If(Condición)
+Acción;
+Donde:
+Condición: Es una expresión lógica que es evaluada por el pícrico
+Acción: es la Acción o Acciones que se hace el programa de resultar de la condición
+ESTRUCTURASE-CLIC DOBLE DOBLE
+sta estructura, se caracteriza por el hecho que ofrece dos caminos a seguir, dependiendo si al evaluar la condición resulta cierta o falsa. Su sintaxis es la siguiente:
+if(Condición)
+Acción 1;
+Más
+Acción 2;
+estructura por el sistema múltiple MÚLTIPLE
+Como su nombre lo indica, permite seleccionar entre caminos para llegar a la final. En este caso se pueden elegir un camino o acción a ejecutar de entre varios posibles que se debe de evaluar, selector de llamada.
+Sintaxis:
+interruptor (selector)
+{
+caso Etiqueta A:
+Acción A;
+romper;
+caso Etiqueta B:
+Acción B;
+romper;
+caso Etiqueta n:
+Acción n;
+romper;
+Predeterminado:
+  Excepción;
+   romper;                                                                             }
+En donde:
+Selector: Variables, expresiones simples de tipo ordinal, (enteros y caracteres –int y char-)
+
+
+Estructuras repetitivas: Las estructuras repetitivas se utilizan cuando se quiere que un conjunto de instrucciones se ejecuten un cierto número finito de veces, por ejemplo, escribir algo en pantalla cierta cantidad de veces, mover un objeto de un punto a otro cierta cantidad de pasos, o hacer una operación matemática cierta cantidad de veces. Se les llama bucle o ciclo a todo proceso que se repite cierto número de veces dentro de un pseudocódigo o un programa y las estructuras repetitivas nos permiten hacerlo de forma sencilla.
+FOR (PARA)
+Esta estructura ejecuta las acciones del cuerpo del bucle un número especificado de veces, y de modo automático controla el número de iteraciones o pasos.
+ 
+
+WHILE (MIENTRAS)
+Repite el cuerpo del bucle mientras se cumpla una determinada condición.
+ 
+DO- WHILE (HACER MIENTRAS)
+La estructura HACER MIENTRAS cumple la misma función que la estructura MIENTRAS. La diferencia está en que la estructura  MIENTRAS comprueba la condición al inicio y repetir lo hace al final. Es por ello que la estructura HACER MIENTRAS se ejecuta por lo menos una vez.
 
 
 
+
+nested structures: Decimos que una estructura condicional es anidada cuando por la rama del verdadero o el falso de una estructura condicional hay otra estructura condicional.
+
+Distinguish the types of computational data:- 
+
+Numeric: Pueden ser números reales o enteros, dependiendo de lo necesario.
+
+- Logic: es en computación aquel que puede representar valores de lógica binaria, esto es 2 valores, que normalmente representan falso o verdadero.  Se utiliza normalmente en la programación, estadística, electrónica, matemáticas (Álgebra booleana), etc.
+
+ String : es aquel que pueden tomar por valor una secuencia de caracteres. En pseudocódigo, el valor de un dato de tipo cadena se puede representar entre comillas simples (') o dobles (").
+
+Characters: Dígitos individuales que se pueden representar mediante datos numéricos (0-9), letras (a-z) u otros símbolos.
+
+- Arrangements: el cual es capaz de almacenar una colección de datos del mismo tipo. Es la forma más simple de agrupar componentes de un mismo tipo y asociarles un número de orden de cada componente llamado índice.
+
+ConstantsExplain the types of computational operations:Operators:- Arithmetic- Logic-: 
+Operadores:- Aritmética: es aquella parte de las ciencias de la computación que diseña, analiza, implementa y aplica algoritmos algebraicos
+- Lógica: es una disciplina que estudia la aplicación de la Lógica Formal para la representación computacional de argumentos, las técnicas de deducción automática o asistida por computadora, los fundamentos relacionados con validez y completez (completeness) de sistemas de proposiciones y, las aplicaciones de esas técnicas a las diferentes áreas de las Ciencias Computacionales en todas las etapas del desarrollo del software, es decir, especificación, diseño, construcción y verificación formal de programas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Define concepts and characteristics of algorithms
+Differentiate control structures in the design and construction of an algorithm:- Selective structures- Repetitive structures- nested structures
+Describe the types of algorithm representation:- Graph: Flow chart- Written: pseudocode ** 
+Define the characteristics of the variables and constants
+Distinguish the types of computational data:- Numeric- Logic- String and characters- Arrangements
+Describe the representation of computational data:-Variables-ConstantsExplain the types of computational operations:Operators:- Arithmetic- Logic- RelationshipsOperands:-Variables-ConstantsExpressions:- Arithmetic- Logic
+
+
+
+
+
+Definir conceptos y características de algoritmos Diferenciar estructuras de control en el diseño y construcción de un algoritmo: - Estructuras selectivas - Estructuras repetitivas - Estructuras anidadas Describir los tipos de representación del algoritmo: - Gráfico: Diagrama de flujo - Escrito: pseudocódigo ** Definir las características del variables y constantes Distinguir los tipos de datos computacionales: - Numérico- Lógica- Cadena y caracteres- Arreglos Describir la representación de datos computacionales: -Variables-Constantes Explicar los tipos de operaciones computacionales: Operadores: - Aritmética- Lógica- Relaciones Operandos: -Variables-Constantes Expresiones : - Lógica aritmética
 
 
 
